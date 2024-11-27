@@ -1,0 +1,106 @@
+.login-main-container {
+  background-color: #211b1b;
+  height: 98vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+.login-form-container {
+  background-color: #646060;
+  width: 405px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px #f9f9f9;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-container {
+  width: 250px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 430px) {
+  .login-main-container {
+    height: 100vh;
+  }
+  .login-form-container {
+    background-color: #646060;
+    width: 75%;
+  }
+}
+
+.logo-img {
+  width: 50%;
+  border-radius: 100%;
+}
+
+.login-input-container {
+  margin-bottom: 8px;
+}
+.login-label-item {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+.login-input-item {
+  border: 2px solid #cccccc;
+  padding: 4px;
+  padding-left: 10px;
+  width: 100%;
+  height: 25px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: #000000;
+  cursor: pointer;
+  outline: none;
+  margin-top: 5px;
+}
+.login-checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.login-checkbox-item {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  outline: none;
+}
+.login-checkbox-label {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+.login-button-style {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  padding: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 4px;
+  border-width: 0px;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.error-message-para {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 600;
+  color: red;
+}

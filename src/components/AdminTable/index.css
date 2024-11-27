@@ -1,0 +1,84 @@
+.popup-container {
+  width: 300px;
+  background-color: yellowgreen;
+  padding: 40px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pop-up-label {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+.pop-up-input {
+  cursor: pointer;
+  border-width: 0px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Roboto";
+  border-radius: 2px;
+  height: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width: 99%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.pop-up-role {
+  cursor: pointer;
+  border-width: 0px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Roboto";
+  border-radius: 2px;
+  height: 28px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.pop-up-button-container {
+  width: 100%;
+  margin-top: 10px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.popup-title {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+.cancel-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+.confirm-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+
+.button-changes {
+  margin: 0px;
+  font-size: 24px;
+  background-color: transparent;
+  color: black;
+  border: 0px;
+}
+.button-changes:hover {
+  color: orange;
+}
+
+.add-button {
+  margin: 0px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 850px) {
+  .add-button {
+    margin-left: 5px;
+  }
+}

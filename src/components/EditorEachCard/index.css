@@ -1,0 +1,68 @@
+.editor-each-card {
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  width: 26%;
+}
+.editor-image-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.editor-image {
+  width: 100%;
+  height: 150px;
+}
+.editor-title {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  text-align: center;
+  color: brown;
+}
+
+.editor-desc {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.editor-icon-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+strong {
+  color: orange;
+}
+
+@media screen and (min-width: 480px) and (max-width: 750px) {
+  .editor-each-card {
+    width: 35%;
+  }
+  .editor-title {
+    font-family: "Roboto";
+    font-size: 20px;
+  }
+
+  .editor-desc {
+    font-family: "Roboto";
+    font-size: 16px;
+  }
+  .editor-image {
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 310px) and (max-width: 480px) {
+  .editor-each-card {
+    width: 100%;
+  }
+  .editor-image {
+    height: 100px;
+  }
+}

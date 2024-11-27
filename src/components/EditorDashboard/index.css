@@ -1,0 +1,21 @@
+.editor-main-container {
+  background-color: cadetblue;
+  min-height: 100vh;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+.editor-inner-container {
+  width: 95%;
+}
+
+.editor-unorder-container {
+  width: 100%;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}

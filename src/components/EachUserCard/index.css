@@ -1,0 +1,89 @@
+.each-card-item {
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  margin: 5px;
+  margin-left: 0px;
+}
+.image-icon-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.description {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.status {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  color: orange;
+}
+.inactive {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  color: brown;
+}
+
+@media screen and (min-width: 851px) and (max-width: 1290px) {
+  .each-card-item {
+    width: 25%;
+  }
+  .image-icon-container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 850px) {
+  .each-card-item {
+    width: 27%;
+  }
+  .image-icon-container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 567px) and (max-width: 700px) {
+  .each-card-item {
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 0px;
+  }
+  .image-icon-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .title {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+}

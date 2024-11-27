@@ -1,0 +1,144 @@
+.nav-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+  background-color: #817e7e;
+}
+.header-link {
+  text-decoration: none;
+}
+.nav-heading {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Roboto";
+  margin: 0px;
+  color: #f7931e;
+}
+.nav-unorder-list-container {
+  display: flex;
+  padding-left: 0px;
+  list-style-type: none;
+  gap: 80px;
+  text-decoration: none;
+  columns: #fff;
+}
+
+.list-item {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+@media screen and (max-width: 430px) {
+  .nav-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    background-color: #817e7e;
+  }
+  .nav-heading {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .nav-unorder-list-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .list-item {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .nav-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px 0px 5px;
+    background-color: #817e7e;
+  }
+  .nav-heading {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .nav-unorder-list-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .list-item {
+    font-size: 14px;
+  }
+}
+
+.list-item:hover {
+  color: #f7931e;
+  border-bottom: 2px solid #f7931e;
+  padding-bottom: 5px;
+}
+
+.header-logout {
+  font-size: 16px;
+  padding: 15px;
+  font-weight: 500;
+  background-color: #f7931e;
+  border-radius: 5px;
+  font-family: "Roboto";
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 30px;
+  transform: scaleX(1);
+}
+.header-logout:hover {
+  transform: scaleX(1.03);
+}
+.header-button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+  gap: 40px;
+}
+.cancel-button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin: 0px;
+  background-color: red;
+}
+.confirm-button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin: 0px;
+  background-color: green;
+}
+
+@media screen and (max-width: 430px) {
+  .header-logout {
+    margin-left: 20px;
+  }
+  .header-button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .header-logout {
+    margin-left: 10px;
+    padding-left: 5px;
+
+    padding-right: 5px;
+  }
+}
